@@ -1,0 +1,18 @@
+.header_container{	
+	background:url("../images/header-about-us.png");
+	background-size: 961px auto;
+	background-repeat: no-repeat;	
+}
+.image_holder{
+	width:45%;
+	float:left;
+}
+.image_holder img{
+	float:right;
+}
+.content_holder{
+	padding-right:35px;
+	box-sizing:border-box;
+	width:55%;
+	float:left;
+}

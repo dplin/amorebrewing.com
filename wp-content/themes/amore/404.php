@@ -1,0 +1,1 @@
+<?php/*404 Page Not Found*/?><?php get_header(); ?>		<div class="m_container">		<p style="color:#3E2C29;width:320px;position:absolute;top:50%;left:34%;">			oops...the page you are looking is not here! <i class="fa fa-frown-o fa-lg"></i>		</p>	</div><?php get_footer(); ?>

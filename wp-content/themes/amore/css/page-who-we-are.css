@@ -1,0 +1,61 @@
+.image_holder{
+	width:48%;
+	float:left;
+}
+.image_holder img{
+	float:right;
+}
+.content_holder{
+	padding-right:35px;
+	box-sizing:border-box;
+	width:52%;
+	float:left;
+}
+.c_container{
+	width:50%;
+	float:left;	
+	box-sizing:border-box;
+}
+.c_container p{
+	margin-bottom:2em;
+}
+.c_container:nth-child(odd){
+	padding-right:10px;
+}
+.c_container:nth-child(even){
+	padding-left:10px;
+}
+.c_container h2:first-child{
+	font-size:1em;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	div.content .image_holder img{
+		width:97%;
+	}
+}
+@media only screen and (max-width: 767px) {		
+	.content_holder{
+		width:100%;
+		padding:0;
+		float:none;
+	}	
+	div.content img, div.content .image_holder{
+		display:block;
+		width:100%;
+	}
+	.c_container{
+		width:100%;
+	}
+	.c_container p{
+		margin-bottom:0.5em;
+	}	
+	.c_container:last-child p{
+		margin-bottom:1.5em;
+	}	
+	.c_container:nth-child(odd){
+		padding-right:0;
+	}
+	.c_container:nth-child(even){
+		padding-left:0;
+	}	
+}

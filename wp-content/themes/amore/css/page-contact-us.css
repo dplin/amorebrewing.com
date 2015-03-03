@@ -1,0 +1,84 @@
+.wpcf7 input, .wpcf7 textarea{
+	width:260px;
+}
+.wpcf7 textarea{
+	height:203px;
+}
+.wpcf7 p{
+	margin-top:-2px;
+	margin-bottom:27px;
+}
+.address_email h2, .content_wrapper .cf7 h2{	
+	font-size:1em !important;
+}
+.address_email p{	
+	font-weight:700;
+	margin-top:-10px;
+}
+.wpcf7 input[type=submit]{
+	margin-top:30px;
+	width:170px;
+	border-radius: 0;
+    border: 0;	
+	color:#fff;
+	padding-top:4px;
+	padding-bottom:4px;
+	background: #bc0a29;
+	font-family: Kameron;
+	font-size: 1.4em;
+	text-shadow: none;
+	text-transform:uppercase;
+	outline: none;
+}
+.wpcf7-response-output{
+	border:0 !important;
+	position:absolute;
+	top:790px;
+	left:320px;
+	color:#333;
+	font-family:arial;
+}
+.cf7_mobile{
+	display:none;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.wpcf7 input, .wpcf7 textarea{
+		width:192px;
+	}
+	.wpcf7-response-output{
+		top:750px;
+		left:255px;
+	}	
+}
+@media only screen and (max-width: 767px) {		
+	.cf7{
+		display:none;
+	}
+	.cf7_mobile{
+		display:block;
+	}	
+	.cf7_mobile h2:first-child{
+		font-size:1em;
+	}
+	.wpcf7 input, .wpcf7 textarea{
+		width:100%;
+		box-sizing:border-box;
+	}
+	.wpcf7-response-output{
+		top:880px;	
+		left:210px;
+	}
+	.address_email{
+		padding:15px 0 !important;
+		width:100%;
+		border-top:1px solid #666;		
+	}
+	.wpcf7-response-output{
+		border:0 !important;
+		position:absolute;
+		top:918px;
+		left:5px;
+		color:#333;
+		font-family:arial;
+	}	
+}

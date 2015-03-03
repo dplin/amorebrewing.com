@@ -1,0 +1,14 @@
+.login form {
+    border: 1px solid #E5E5E5;
+    box-shadow: 3px 3px 8px -3px #000000;
+    font-weight: normal;
+    margin-left: 8px;
+    padding: 26px 24px 46px;
+}
+.login label {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+h1 a { 
+	background-image:url('../images/admin-login-logo.png') !important; background-size:auto !important; height:134px !important; width:auto !important;
+}

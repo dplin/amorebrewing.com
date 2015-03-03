@@ -1,0 +1,70 @@
+.home_container{
+	position:absolute;
+	left:-45px;
+	top:15px;
+	background:url("../images/coffee-background.png");
+	background-size: 950px auto;
+	background-repeat: no-repeat;
+	width:970px;
+	height:650px;
+}
+.short_description{
+	position:absolute;
+	top:285px;
+	right:0;
+	height:250px;
+	width:405px;
+}
+.short_description p{
+	font-size:1.2em;
+	font-weight:700;
+	line-height:24px;
+	margin-bottom:70px;
+	padding-left:7px;
+}
+.container{
+	min-height:770px;
+}
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.home_container{
+		position:absolute;
+		left:-45px;
+		top:15px;
+		background:url("../images/coffee-background.png");
+		background-size: 778px auto;
+		background-repeat: no-repeat;
+		width:798px;
+		height:650px;
+	}
+	.short_description{
+		position:absolute;
+		top:235px;
+		right:15px;		
+		width:320px;
+	}	
+	.short_description p{
+		margin-bottom:50px;
+	}	
+}
+@media only screen and (max-width: 767px) {		
+	.container{
+		min-height:0;
+		height:0;
+	}
+	.home_container{
+		background:url("../images/coffee-background-mobile.png");
+		background-size: 100% auto;
+		background-repeat: no-repeat;	
+		width:100%;		
+		height:400px;
+		left:-15px;	
+		top:205px;		
+	}
+	.short_description{
+		display:none;
+	}	
+	.mobile_nav_container{
+		position:relative;
+		z-index:1;
+	}
+}
